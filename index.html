@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./build/styles.css" />
+    <title>Instagram</title>
+  </head>
+  <body>
+    <div class="container">
+      <main class="main">
+        <div class="signin">
+          <div class="signin__smartphones">
+            <img src="./src/assets/images/instagram-smartphones.png" alt="Smartphones" />
+          </div>
+          <div class="signin__wrapper-content">
+            <div class="signin__login">
+              <div class="signin__login--wrapper-login">
+                <img src="./src/assets/images/logo.png" alt="Logo Instagram" class="signin__login--logo" />
+                <form class="signin__login--form">
+                  <input
+                    type="text"
+                    id="user_identifier"
+                    name="user_identifier"
+                    placeholder="Telefone, nome de usuário ou email"
+                    class="signin__login--form--input"
+                  />
+                  <input
+                    type="password"
+                    id="user_password"
+                    name="user_password"
+                    placeholder="Senha"
+                    class="signin__login--form--input signin__login--form--input--password"
+                  />
+                  <button type="submit" class="signin__login--form--button"><span class="signin__login--form--button--text">Entrar</span></button>
+                </form>
+                <div class="signin__login--separator">ou</div>
+                <a class="signin__login--social">Entrar com o Facebook</a>
+                <a class="signin__login--forgot-password">Esqueceu a senha?</a>
+              </div>
+            </div>
+            <div class="signin__register">
+              <p class="signin__register--paragraph">Não tem uma conta? <a class="signin__register--link">Cadastre-se</a></p>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+  </body>
+</html>
